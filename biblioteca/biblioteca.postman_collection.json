@@ -1,0 +1,492 @@
+{
+	"info": {
+		"_postman_id": "5c19bebe-a286-42df-9d6e-f9885aec28c4",
+		"name": "biblioteca",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33277061"
+	},
+	"item": [
+		{
+			"name": "Membro",
+			"item": [
+				{
+					"name": "membro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "membro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Ketlen Possoli\",\n    \"endereco\": \"Servidao Santisima Trindade\",\n    \"telefone\": 48996737714\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "membro",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/{idMembro}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"{idMembro}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "membro",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Livro",
+			"item": [
+				{
+					"name": "livro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "livro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Ketlen Possoli\",\n    \"endereco\": \"Servidao Santisima Trindade\",\n    \"telefone\": 48996737714\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "livro",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/{idMembro}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"{idMembro}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "livro",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/livro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"livro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Emprestimo",
+			"item": [
+				{
+					"name": "emprestimo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "emprestimo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Ketlen Possoli\",\n    \"endereco\": \"Servidao Santisima Trindade\",\n    \"telefone\": 48996737714\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "emprestimo",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/{idMembro}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"{idMembro}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "emprestimo",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Bibliotecario",
+			"item": [
+				{
+					"name": "bibliotecario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "bibliotecario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Ketlen Possoli\",\n    \"endereco\": \"Servidao Santisima Trindade\",\n    \"telefone\": 48996737714\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "bibliotecario",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/{idMembro}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"{idMembro}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "bibliotecario",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Visitante",
+			"item": [
+				{
+					"name": "visitante",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "visitante",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nome\": \"Ketlen Possoli\",\n    \"endereco\": \"Servidao Santisima Trindade\",\n    \"telefone\": 48996737714\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "visitante",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/{idMembro}",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"{idMembro}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "visitante",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/membro",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"membro"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "localhost:8080",
+			"type": "string"
+		}
+	]
+}
